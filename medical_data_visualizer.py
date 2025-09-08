@@ -64,6 +64,3 @@ def draw_heat_map():
     fig.tight_layout()
     fig.savefig('heatmap.png', bbox_inches='tight')
     return fig
-
-# Observações e possíveis melhorias:
-# - Verificar os imports e a utilização das bibliotecas para assegurar consistência entre dependências e código.
